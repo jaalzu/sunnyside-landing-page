@@ -32,7 +32,7 @@ img{
     position: static;
     min-height: 100vh;
     // BACKGROUND IMAGE 
-    background-image: url(images/desktop/image-header.jpg);
+    background-image: url(../images/desktop/image-header.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -479,7 +479,7 @@ main{
     #header{
         min-height: 70vh;
         // BACKGROUND IMAGE 
-        background-image: url(images/mobile/image-header.jpg);
+        background-image: url(./images/mobile/image-header.jpg);
 
     
 

@@ -24,7 +24,7 @@ img {
 #header {
   position: static;
   min-height: 100vh;
-  background-image: url(images/desktop/image-header.jpg);
+  background-image: url(../images/desktop/image-header.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -338,7 +338,7 @@ main .box .box__img img {
 @media screen and (max-width: 690px) {
   #header {
     min-height: 70vh;
-    background-image: url(images/mobile/image-header.jpg);
+    background-image: url(./images/mobile/image-header.jpg);
   }
   #header .menu {
     display: block;
