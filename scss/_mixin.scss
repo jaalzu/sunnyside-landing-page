@@ -1,0 +1,21 @@
+@mixin font-style($size, $weight, $color) {
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+  }
+
+  @mixin flexbox($display, $direction, $align-items, $justify-content) {
+    display: $display;
+    flex-direction: $direction;
+    align-items: $align-items;
+    justify-content: $justify-content;
+  }
+  
+  
+
+  @mixin background-image($image, $size: cover, $position: center, $repeat: no-repeat) {
+    background-image: url($image);
+    background-size: $size;
+    background-position: $position;
+    background-repeat: $repeat;
+  }
