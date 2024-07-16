@@ -32,7 +32,7 @@ img{
     position: static;
     min-height: 100vh;
     // BACKGROUND IMAGE 
-    background-image: url(images/desktop/image-header.jpg);
+    background-image: url('/images/desktop/image-header.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -142,11 +142,15 @@ main{
         .box__text{
             @include flexbox(flex,column,start,center);
             margin-left: 7rem;
+            margin-right: 4rem;
 
+            .h2-1{
+                width: 70%;
+            }
 
             h2{
                 font-family: $font-family-fraunces;
-                @include font-style(2.8rem,$font-weight-fraunces-black,$black);
+                @include font-style(2.4rem,$font-weight-fraunces-black,$black);
                width: 85%;
             }
 
@@ -157,7 +161,7 @@ main{
                 width: 80%;
                 line-height: 1.7;
                 font-family: $font-family-barlow;
-                @include font-style(1.040rem,500,$medium-grayish-blue);
+                @include font-style(1.1rem,600,$medium-grayish-blue);
             }
 
 
@@ -169,7 +173,7 @@ main{
                 background-color: transparent;
                 text-transform: uppercase;
                 font-family: $font-family-fraunces;
-                @include font-style(1.1rem,900,$black);
+                @include font-style(1rem,800,$black);
                 margin-left: .5rem;
                 cursor: pointer;
                 color: black;
@@ -263,7 +267,7 @@ main{
                 margin: 0 auto;
                 margin-top: 2rem;
                 font-family: $font-family-barlow;
-                font-weight: 600;
+                font-weight: 500;
             }
 
 
@@ -274,6 +278,7 @@ main{
 
             .projects_p2{
                 color: $dark-blue;
+                font-weight: 600;
             }
         }
     }
@@ -306,11 +311,11 @@ main{
 
 
         h2{
-            @include font-style(1.1rem,800,$light-grayish-blue);
+            @include font-style(1.3rem,800,$light-grayish-blue);
             text-transform:uppercase;
             font-family: $font-family-fraunces;
             letter-spacing: 5px;
-            margin-bottom: 4.5rem;
+            margin-bottom: 5rem;
         }
 
 
@@ -331,7 +336,7 @@ main{
 
             p{
                 font-family: $font-family-barlow;
-                @include font-style($font-size,600,$medium-grayish-blue);
+                @include font-style($font-size,600,$black-light);
                 line-height: 1.6;
                 margin-top: 1.3rem;
                 margin-inline: 1rem;
@@ -350,7 +355,7 @@ main{
 
 
                 span{
-                    @include font-style(.750rem,500,$light-grayish-blue);
+                    @include font-style(.850rem,600,$light-grayish-blue);
                     font-family: $font-family-barlow;
                 }
             }
@@ -413,7 +418,7 @@ main{
 
     .footer__list ul{
         @include flexbox(flex,row,center,center);
-        gap: 2.5rem;
+        gap: 3.5rem;
         font-family:$font-family-barlow;
         cursor: pointer;
         margin-bottom: 3rem;
@@ -474,7 +479,7 @@ main{
     #header{
         min-height: 70vh;
         // BACKGROUND IMAGE 
-        background-image: url(images/desktop/image-header.jpg);
+        background-image: url('/images/mobile/image-header.jpg');
 
     
 

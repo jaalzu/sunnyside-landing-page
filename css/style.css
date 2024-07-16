@@ -51,7 +51,7 @@ img {
   align-items: center;
 }
 #header .navbar .nav__list li a {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 450;
   color: hsl(0, 0%, 100%);
 }
@@ -111,10 +111,14 @@ main .box .box__text {
   align-items: start;
   justify-content: center;
   margin-left: 7rem;
+  margin-right: 4rem;
+}
+main .box .box__text .h2-1 {
+  width: 70%;
 }
 main .box .box__text h2 {
   font-family: "Fraunces", serif;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 900;
   color: black;
   width: 85%;
@@ -125,8 +129,8 @@ main .box .box__text p {
   width: 80%;
   line-height: 1.7;
   font-family: "Barlow", sans-serif;
-  font-size: 1.04rem;
-  font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 600;
   color: hsl(232, 10%, 55%);
 }
 main .box .box__text .btn {
@@ -137,8 +141,8 @@ main .box .box__text .btn {
   background-color: transparent;
   text-transform: uppercase;
   font-family: "Fraunces", serif;
-  font-size: 1.1rem;
-  font-weight: 900;
+  font-size: 1rem;
+  font-weight: 800;
   color: black;
   margin-left: 0.5rem;
   cursor: pointer;
@@ -201,13 +205,14 @@ main .box .box__img img {
   margin: 0 auto;
   margin-top: 2rem;
   font-family: "Barlow", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 .projects .box .projects__text .projects_p1 {
   color: hsl(167, 40%, 24%);
 }
 .projects .box .projects__text .projects_p2 {
   color: hsl(198, 62%, 26%);
+  font-weight: 600;
 }
 
 /******************* CLIENTS TESTIMONIALS SECTION **********************/
@@ -220,13 +225,13 @@ main .box .box__img img {
   margin-top: -5rem;
 }
 .testimonials h2 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 800;
   color: hsl(210, 4%, 67%);
   text-transform: uppercase;
   font-family: "Fraunces", serif;
   letter-spacing: 5px;
-  margin-bottom: 4.5rem;
+  margin-bottom: 5rem;
 }
 .testimonials .testimonials__grid {
   display: flex;
@@ -247,9 +252,9 @@ main .box .box__img img {
 }
 .testimonials .testimonials__grid .client__box p {
   font-family: "Barlow", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 600;
-  color: hsl(232, 10%, 55%);
+  color: rgba(0, 0, 0, 0.623);
   line-height: 1.6;
   margin-top: 1.3rem;
   margin-inline: 1rem;
@@ -263,8 +268,8 @@ main .box .box__img img {
   margin-bottom: 0.3rem;
 }
 .testimonials .testimonials__grid .client__box .client__name span {
-  font-size: 0.75rem;
-  font-weight: 500;
+  font-size: 0.85rem;
+  font-weight: 600;
   color: hsl(210, 4%, 67%);
   font-family: "Barlow", sans-serif;
 }
@@ -299,13 +304,13 @@ main .box .box__img img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 3.5rem;
   font-family: "Barlow", sans-serif;
   cursor: pointer;
   margin-bottom: 3rem;
 }
 .footer .footer__list ul li a {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 500;
   color: hsl(168, 34%, 35%);
   transition: 0.2s ease;
