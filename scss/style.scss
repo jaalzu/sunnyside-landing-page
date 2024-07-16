@@ -46,12 +46,12 @@ img{
     .navbar{
         @include flexbox(flex,row,center,space-between);
         margin-inline: 2.8rem;  
-        margin-top: 1rem;
+        margin-top: 2rem;
         font-family: $font-family-barlow;
 
 
         .logo{
-            max-width: 100%;
+            width: 12%;
         }
 
 
@@ -62,7 +62,7 @@ img{
 
 
             li a {
-                @include font-style($font-size,450,$pure-white);
+                @include font-style($font-size,550,$pure-white);
 
                 &:hover{
                     text-decoration:underline;
@@ -71,11 +71,12 @@ img{
 
 
             .btn{
-                padding: 13px 27px;
+                padding: 17px 30px;
                 display: inline-block;
-                @include font-style(.830rem,700,$dark-blue);
+                @include font-style(.9rem,800,dark);
                 font-family: $font-family-fraunces;
                 text-transform: uppercase;
+                background-color: $pure-white;
                 border-radius: 30px;
                 outline: none;
                 border: none;
@@ -97,10 +98,10 @@ img{
 
         h1{
             // position: relative;
-            margin-top: 6rem;
-            @include font-style(3.1rem,800,$pure-white);
+            margin-top: 7rem;
+            @include font-style(3.4rem,900,$pure-white);
             font-family: $font-family-fraunces;
-            letter-spacing: 12px;
+            letter-spacing: 13px;
             text-transform:uppercase;
         }
 
@@ -141,7 +142,7 @@ main{
 
         .box__text{
             @include flexbox(flex,column,start,center);
-            margin-left: 7rem;
+            margin-left: 9rem;
             margin-right: 4rem;
 
             .h2-1{
@@ -158,8 +159,8 @@ main{
             p{  
                 margin-top: 1.8rem;
                 z-index: 1000;
-                width: 80%;
-                line-height: 1.5;
+                width: 90%;
+                line-height: 1.6;
                 font-family: $font-family-barlow;
                 @include font-style(1.1350rem,600,$medium-grayish-blue);
             }
@@ -256,13 +257,13 @@ main{
                 font-size: clamp(1.8rem,1.9vw,2.3rem);
                 font-family:$font-family-fraunces;
                 margin-top: 4.5rem;
-                font-weight: 800;
+                font-weight: 900;
             }
 
 
             p{
                 line-height: 1.6;
-                font-size: clamp(1.1rem,1vw,1.3rem);
+                font-size: clamp(1.1rem,.950vw,1.3rem);
                 width: 50%;
                 margin: 0 auto;
                 margin-top: 2rem;
@@ -275,10 +276,19 @@ main{
                 color: $dark-cyan;
             }
 
+            .projects_p1-p{
+                color: $dark-cyan;
+            }
+
 
             .projects_p2{
                 color: $dark-blue;
-                font-weight: 600;
+            }
+
+            .projects_p2-p{
+                font-weight: 500;
+                color: $dark-blue;
+
             }
         }
     }

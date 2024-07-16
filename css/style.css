@@ -39,11 +39,11 @@ img {
   align-items: center;
   justify-content: space-between;
   margin-inline: 2.8rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-family: "Barlow", sans-serif;
 }
 #header .navbar .logo {
-  max-width: 100%;
+  width: 12%;
 }
 #header .navbar .nav__list {
   display: flex;
@@ -52,20 +52,21 @@ img {
 }
 #header .navbar .nav__list li a {
   font-size: 1.15rem;
-  font-weight: 450;
+  font-weight: 550;
   color: hsl(0, 0%, 100%);
 }
 #header .navbar .nav__list li a:hover {
   text-decoration: underline;
 }
 #header .navbar .nav__list .btn {
-  padding: 13px 27px;
+  padding: 17px 30px;
   display: inline-block;
-  font-size: 0.83rem;
-  font-weight: 700;
-  color: hsl(198, 62%, 26%);
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: dark;
   font-family: "Fraunces", serif;
   text-transform: uppercase;
+  background-color: hsl(0, 0%, 100%);
   border-radius: 30px;
   outline: none;
   border: none;
@@ -79,12 +80,12 @@ img {
   text-align: center;
 }
 #header .hero__text h1 {
-  margin-top: 6rem;
-  font-size: 3.1rem;
-  font-weight: 800;
+  margin-top: 7rem;
+  font-size: 3.4rem;
+  font-weight: 900;
   color: hsl(0, 0%, 100%);
   font-family: "Fraunces", serif;
-  letter-spacing: 12px;
+  letter-spacing: 13px;
   text-transform: uppercase;
 }
 #header .hero__text img {
@@ -110,7 +111,7 @@ main .box .box__text {
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  margin-left: 7rem;
+  margin-left: 9rem;
   margin-right: 4rem;
 }
 main .box .box__text .h2-1 {
@@ -126,8 +127,8 @@ main .box .box__text h2 {
 main .box .box__text p {
   margin-top: 1.8rem;
   z-index: 1000;
-  width: 80%;
-  line-height: 1.5;
+  width: 90%;
+  line-height: 1.6;
   font-family: "Barlow", sans-serif;
   font-size: 1.135rem;
   font-weight: 600;
@@ -196,11 +197,11 @@ main .box .box__img img {
   font-size: clamp(1.8rem, 1.9vw, 2.3rem);
   font-family: "Fraunces", serif;
   margin-top: 4.5rem;
-  font-weight: 800;
+  font-weight: 900;
 }
 .projects .box .projects__text p {
   line-height: 1.6;
-  font-size: clamp(1.1rem, 1vw, 1.3rem);
+  font-size: clamp(1.1rem, 0.95vw, 1.3rem);
   width: 50%;
   margin: 0 auto;
   margin-top: 2rem;
@@ -210,9 +211,15 @@ main .box .box__img img {
 .projects .box .projects__text .projects_p1 {
   color: hsl(167, 40%, 24%);
 }
+.projects .box .projects__text .projects_p1-p {
+  color: hsl(167, 40%, 24%);
+}
 .projects .box .projects__text .projects_p2 {
   color: hsl(198, 62%, 26%);
-  font-weight: 600;
+}
+.projects .box .projects__text .projects_p2-p {
+  font-weight: 500;
+  color: hsl(198, 62%, 26%);
 }
 
 /******************* CLIENTS TESTIMONIALS SECTION **********************/
