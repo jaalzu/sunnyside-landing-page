@@ -431,7 +431,7 @@ main{
         gap: 3.5rem;
         font-family:$font-family-barlow;
         cursor: pointer;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         
 
         li a{
@@ -489,7 +489,7 @@ main{
     #header{
         min-height: 70vh;
         // BACKGROUND IMAGE 
-        background-image: url(../images/mobile/image-header.jpg);
+        background-image: url('../images/mobile/image-header.jpg');
 
     
 
@@ -564,7 +564,7 @@ main{
 
             .box__text{
             @include flexbox(flex,column,center,center);
-                margin-top: 3.5rem;
+                margin-top: 4.5rem;
                 margin-left: 0rem;
                 margin-inline: 2.2rem;
                 margin-bottom: 3rem;
@@ -667,13 +667,13 @@ main{
 
     .logo__footer{
         width: 45%;
-        margin-top: -2rem;
+        margin-top: 0rem;
         margin-bottom: .5rem;
                  }
 
 
     .footer__list ul{
-        gap: 4rem;
+        gap: 3rem;
 
 
         li a{

@@ -314,7 +314,7 @@ main .box .box__img img {
   gap: 3.5rem;
   font-family: "Barlow", sans-serif;
   cursor: pointer;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .footer .footer__list ul li a {
   font-size: 1.15rem;
@@ -345,7 +345,7 @@ main .box .box__img img {
 @media screen and (max-width: 690px) {
   #header {
     min-height: 70vh;
-    background-image: url(./images/mobile/image-header.jpg);
+    background-image: url("../images/mobile/image-header.jpg");
   }
   #header .menu {
     display: block;
@@ -399,7 +399,7 @@ main .box .box__img img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 3.5rem;
+    margin-top: 4.5rem;
     margin-left: 0rem;
     margin-inline: 2.2rem;
     margin-bottom: 3rem;
@@ -458,11 +458,11 @@ main .box .box__img img {
   }
   .footer .logo__footer {
     width: 45%;
-    margin-top: -2rem;
+    margin-top: 0rem;
     margin-bottom: 0.5rem;
   }
   .footer .footer__list ul {
-    gap: 4rem;
+    gap: 3rem;
   }
   .footer .footer__list ul li a {
     font-size: 1.1rem;
